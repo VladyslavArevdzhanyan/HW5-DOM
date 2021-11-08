@@ -9,27 +9,20 @@
 </head>
 <body>
 
-
-
     <div class="center">
-        <form class="form" action="#" method="post" autocomplete="on">
-            <input class="input-login" type="text" name="login" placeholder="username" required autofocus>
-            <input class="input-password" type="password" name="password" placeholder="password" required>
-            <button class="input-button" type="submit">login</button>
+        <form class="form" action="#" method="post" autocomplete="on" onsubmit="return false">
+            <input id="01" class="input-login" type="text" name="login" placeholder="username" required autofocus>
+            <input id="02" class="input-password" type="password" name="password" placeholder="password" required>
+            <button id="03" class="input-button" type="submit">login</button>
         </form>
         <p class="center-p">Not registered? <a class="center-a" href="#">Create an account</a></p>
     </div>
 
+    <div id="second" class="center-second">
+        <p id="04" class="center-second-login">Login: </p>
+        <p id="05" class="center-second-password">Password: </p>
+    </div>
 
-
-
-
-
-
-
-
-
-    
     <script src="main.js" defer></script>
 </body>
 </html>

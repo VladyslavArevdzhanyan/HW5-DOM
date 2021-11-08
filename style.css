@@ -19,6 +19,28 @@ body {
     top: calc(50% - 135px);
 }
 
+.center-second {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    bottom: 175px;
+    display:none;
+}
+
+.center-second-login {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.center-second-password {
+    font-size: 25px;
+    padding: 10px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
